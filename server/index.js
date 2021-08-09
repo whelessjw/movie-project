@@ -6,7 +6,9 @@ const router = require("./router");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const keys = require("./config/keys");
+
 console.log("change2");
+
 // DB Setup
 mongoose.connect(keys.MONGODB_URI, {
   useNewUrlParser: true,
